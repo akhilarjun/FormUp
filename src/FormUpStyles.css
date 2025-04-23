@@ -1,0 +1,33 @@
+.buttonbar {
+	text-align: right;
+	margin-top: 20px;
+}
+
+button {
+	background-color: royalblue;
+	color: white;
+	padding: 7px 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+
+button:disabled {
+	background-color: darkgray;
+}
+
+.divider {
+	margin: 20px 0;
+	border-bottom: 1px solid royalblue;
+}
+
+.actionBar button {
+	font-size: 10px;
+	background-color: transparent;
+	color: royalblue;
+	border: 1px solid royalblue;
+	border-radius: 0;
+	padding: 5px;
+}

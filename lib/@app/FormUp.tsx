@@ -7,6 +7,7 @@ type params = {
 };
 
 export const FormUp = ({ componentMap, formConfig }: params) => {
+	console.log('Lib component rendered', Date.now())
 	const op = parse(formConfig, componentMap);
 	return (
 		<>

@@ -1,0 +1,30 @@
+.input-container-formup input,
+.input-container-formup select {
+	outline: none;
+	padding: 7px 10px;
+	width: 100%;
+	display: block;
+}
+
+.input-container-formup {
+	display: flex;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	align-items: center;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.input-container-formup > * {
+	flex: 0 0 50%;
+}
+
+.input-container-formup label {
+	font-weight: 600;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.input-container-formup,
+.input-container-formup * {
+	box-sizing: border-box;
+}

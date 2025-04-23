@@ -1,7 +1,7 @@
-import { Attributes, FunctionComponent } from "react";
+import { Attributes, FC } from "react";
 
 export type ComponentMapType = {
-	[key: string]: FunctionComponent;
+	[key: string]: FC<any>;
 };
 
 export type FormConfigType = {
